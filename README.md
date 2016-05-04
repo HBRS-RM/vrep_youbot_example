@@ -16,7 +16,7 @@
 
 2. Load /scene/youbot_arm
 
-3. Start the simulation
+3. Start the simulation (Press play!)
 
 4. Run your code (see next section)
 
@@ -28,7 +28,7 @@ First compile your code:
 In our case, for example:
 ```
 $ cd vrep_youbot_example
-$ mkdir build
+$ mkdir build && cd build
 $ cmake .. -DVREP_DIR:PATH=/opt/v-rep
 $ make
 ```
